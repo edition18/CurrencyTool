@@ -14,7 +14,7 @@ namespace CurrTracker
         public static async Task<CurrencyModel> UpdateCurrency() 
         {   
             //insert the JSON Api with key for URL
-            string url = "http://apilayer.net/api/live?access_key=e12142a4f9287a273d390f43bf080985";
+            string url = "http://apilayer.net/api/live?access_key=15afa2b2864bf83af0aed9acaa743f08";
 
             using (HttpResponseMessage response = await ApiHelper.ApiClient.GetAsync(url))
             {
